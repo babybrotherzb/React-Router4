@@ -19,3 +19,12 @@
   padding: 40px;
   height: 600px;
 }
+
+.App{
+  text-align: center;
+}
+
+.App-logo{
+  width: 200px;
+  height: 200px;
+}

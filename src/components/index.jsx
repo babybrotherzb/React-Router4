@@ -10,7 +10,7 @@ export default memo(withRouter(function AllComponent(props) {
         if(props.location.pathname === '/'){
             props.history.push('/home')
         }
-    }, [props.location.pathname])
+    }, [props.history, props.location.pathname])
     return (
         <div>
             <Sider />

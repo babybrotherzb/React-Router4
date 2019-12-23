@@ -10,7 +10,7 @@ export default memo(withRouter(function Index(props) {
                 props.history.push('/child/first')
             }
             
-        }, [props.location.pathname])
+        }, [props.history, props.location.pathname])
     return (
         <div>
             <div className="secondroute">
